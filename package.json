@@ -4,6 +4,7 @@
   "description": "The CDN for everything on npm",
   "scripts": {
     "build": "rollup -c",
+    "start": "rollup -c && node server.js",
     "clean": "git clean -e '!/.env' -fdX .",
     "lint": "eslint .",
     "serve": "nodemon -w server.js server.js",
